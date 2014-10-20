@@ -1,0 +1,32 @@
+{
+  "name": "session",
+  "plural": "sessions",
+  "base": "PersistedModel",
+  "properties": {
+    "bodyweight": {
+      "type": "number"
+    },
+    "date": {
+      "type": "date"
+    },
+    "squat": {
+      "type": "number"
+    },
+    "press": {
+      "type": "number"
+    },
+    "bench": {
+      "type": "number"
+    },
+    "deadlift": {
+      "type": "number"
+    },
+    "powerClean": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
